@@ -7,7 +7,7 @@ We use unstructured data which are face images with a total of 4 skin tone label
 https://drive.google.com/file/d/1k5Vfi2ThZa5BevxJ37eSHUKwVFxfRrOH/view?usp=sharing
 
 - Data Preprocessing:
-We preprocess the image data with 512 x 512 format as input to this deep learning model. We also applied data augmentation with ImageDataGenerator to increase the number of images with modifications through vertical and horizontal rotation, shear, and zoom levels.
+We preprocess the image data with 150 x 150 format as input to this deep learning model. We also applied data augmentation with ImageDataGenerator to increase the number of images with modifications through vertical and horizontal rotation, shear, and zoom levels.
 
 - Deep Learning Approach:
 We use computer vision approach to classify skin tone into 4 labels with Convolutional Neural Network method to process image data better. We used the TensorFlow framework to build this model.
